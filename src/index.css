@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Dark Theme (Default) */
+    --background: 0 0% 6%;
+    /* #0f0f0f */
+    --container: 0 0% 7%;
+    /* #111111 */
+    --secondary: 240 2% 12%;
+    /* #1e1e1f */
+    --border: 240 5% 18%;
+    /* #2b2b2f */
+    --primary: 151 86% 53%;
+    /* #24ed8d */
+    --primary-foreground: 0 0% 6%;
+    --text-main: 0 0% 100%;
+    /* White */
+    --text-muted: 240 5% 65%;
+    /* Light gray */
+
+    --scrollbar-track: 0 0% 7%;
+    --scrollbar-thumb: 0 0% 20%;
+    --scrollbar-thumb-hover: 0 0% 27%;
+  }
+
+  [data-theme="light"] {
+    /* Light Theme */
+    --background: 0 0% 95%;
+    --container: 0 0% 100%;
+    --secondary: 240 5% 93%;
+    --border: 240 6% 87%;
+    --primary: 151 80% 40%;
+    --primary-foreground: 0 0% 100%;
+    --text-main: 240 10% 4%;
+    --text-muted: 240 4% 46%;
+
+    --scrollbar-track: 0 0% 95%;
+    --scrollbar-thumb: 0 0% 80%;
+    --scrollbar-thumb-hover: 0 0% 70%;
+  }
+
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  body {
+    @apply bg-background text-[hsl(var(--text-main))] font-sans antialiased;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--border));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(var(--primary));
+}
