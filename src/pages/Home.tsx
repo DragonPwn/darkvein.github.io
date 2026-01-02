@@ -122,7 +122,7 @@ const Home = () => {
 
                         <p className="text-xl text-text-muted mb-8 max-w-xl leading-relaxed font-light">
                             Advanced Red Teaming Framework. <br />
-                            <span className="text-white font-medium">Native Syscalls</span>. <span className="text-white font-medium">Memory Evasion</span>. <span className="text-white font-medium">Pivot Chains</span>.
+                            <span className="text-white font-medium">Syscalls</span>. <span className="text-white font-medium">Memory Evasion</span>. <span className="text-white font-medium">Pivot Chains</span>.
                         </p>
 
                         <div className="flex flex-wrap gap-4">
