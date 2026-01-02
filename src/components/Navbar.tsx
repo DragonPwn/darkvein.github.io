@@ -34,7 +34,7 @@ const Navbar = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between">
                     <Link to="/" className="flex items-center space-x-2 group">
-                        <img src={logo} alt="DarkVein Logo" className="h-16 w-auto" />
+                        <img src={logo} alt="DarkVein Logo" className="h-10 md:h-16 w-auto object-contain" />
                     </Link>
 
                     {/* Desktop Nav */}
