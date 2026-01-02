@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import {
     Terminal, Lock, Cpu, Network, Share2,
-    Database, FileText, Code2, Globe, Shield, Radio
+    FileText, Code2, Globe, Shield
 } from "lucide-react";
 import CyberBackground from "../components/CyberBackground";
 

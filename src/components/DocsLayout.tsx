@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import {
     Book, Server, Terminal, Share2, Shield, Activity,
-    ChevronRight, Menu, X, Code, FileText
+    Menu, X, Code, FileText
 } from "lucide-react";
 import Navbar from "../components/Navbar";
 
@@ -71,8 +71,8 @@ const DocsLayout = () => {
                                             <Link
                                                 to={item.path}
                                                 className={`flex items-center gap-3 px-2 py-2 rounded-lg text-sm font-medium transition-colors ${location.pathname === item.path
-                                                        ? "bg-primary/10 text-primary"
-                                                        : "text-text-muted hover:text-white hover:bg-secondary"
+                                                    ? "bg-primary/10 text-primary"
+                                                    : "text-text-muted hover:text-white hover:bg-secondary"
                                                     }`}
                                             >
                                                 {item.icon}
