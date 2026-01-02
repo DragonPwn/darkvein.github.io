@@ -134,7 +134,7 @@ x86_64-w64-mingw32-gcc -c whoami.c -o whoami.o
 ```
 *Note: The `-c` flag is crucial! It tells GCC to compile to an object file (`.o`) and stop before linking.*
 
-![Compiler Output](/assets/blog/compilerout.png)
+![Compiler Output](/darkvein.github.io/assets/blog/compilerout.png)
 ### 3. Running with the Loader
 Pass the `whoami.o` file to your loader.
 1.  Loader reads `whoami.o`.
@@ -626,7 +626,7 @@ int main(int argc, char* argv[]) {
 }
 ```
 
-![Loader Execution](/assets/blog/loaderexecution.png)
+![Loader Execution](/darkvein.github.io/assets/blog/loaderexecution.png)
 ### 4. Compiling & Running
 
 **Compile the Loader:**
@@ -646,4 +646,4 @@ x86_64-w64-mingw32-gcc main.c DragonLoader.c -o DragonLoader.exe
 [*] Executing BOF...
 [*] Current User: TOXIC2\Admin
 ```
-![Final Output](/assets/blog/coffout.png)
+![Final Output](/darkvein.github.io/assets/blog/coffout.png)

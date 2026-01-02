@@ -223,7 +223,7 @@ const Home = () => {
                             <div className="flex items-start justify-between">
                                 <div>
                                     <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-primary"><Shield className="w-6 h-6" /></div>
-                                    <h3 className="text-2xl font-bold mb-2">Native Evasion Engine</h3>
+                                    <h3 className="text-2xl font-bold mb-2">Evasion Engine</h3>
                                     <p className="text-text-muted max-w-md">By-pass EDRs with configurable technique selection. Choose between Direct Syscalls, Indirect Syscalls (Trampoline), or Native APIs.</p>
                                 </div>
                                 <FeatureVisual type="stealth" />
@@ -348,7 +348,7 @@ const Home = () => {
                         </h2>
                         <div className="space-y-6">
                             {[
-                                { title: "Protocol Agnostic", desc: "HTTP/S, DNS, SMB, TCP listeners with malleable command profiles." },
+                                { title: "Protocol Agnostic", desc: "HTTP/S, DNS, SMB, Custom listeners with malleable command profiles." },
                                 { title: "Payload Generation", desc: "Shellcode, EXE, DLL, PowerShell formats with dynamic obfuscation." },
                                 { title: "Post-Exploitation", desc: "Built-in mimicry, token manipulation, and process injection tools." },
                                 { title: "Extensible", desc: "Load 3rd-party BOFs or write your own scripts in seconds." }
