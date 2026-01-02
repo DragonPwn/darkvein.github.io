@@ -12,19 +12,19 @@ const Features = () => {
             desc: "Bypass EDR/AV with advanced memory techniques and evasive execution.",
             items: [
                 {
-                    icon: <Lock className="w-5 h-5 text-purple-400" />,
+                    icon: <Lock className="w-5 h-5 text-gray-400" />,
                     title: "Native API Evasion",
                     desc: "Dynamically resolve NT APIs to bypass ring-3 hooks and monitoring.",
                     tags: ["Ntdll", "Dynamic"]
                 },
                 {
-                    icon: <Cpu className="w-5 h-5 text-blue-400" />,
+                    icon: <Cpu className="w-5 h-5 text-gray-400" />,
                     title: "Direct & Indirect Syscalls",
                     desc: "Execute instructions directly via kernel syscalls, avoiding userland API monitoring entirely.",
                     tags: ["x64", "Assembly"]
                 },
                 {
-                    icon: <Shield className="w-5 h-5 text-emerald-400" />,
+                    icon: <Shield className="w-5 h-5 text-gray-400" />,
                     title: "Memory Artifact Evasion",
                     desc: "Heap encryption, sleep obfuscation, and stack spoofing to hide from memory scanners.",
                     tags: ["OpSec", "Sleep"]
@@ -36,19 +36,19 @@ const Features = () => {
             desc: "Pivoting and communication protocols designed for segmented networks.",
             items: [
                 {
-                    icon: <Share2 className="w-5 h-5 text-orange-400" />,
+                    icon: <Share2 className="w-5 h-5 text-gray-400" />,
                     title: "SMB Named Pipes",
                     desc: "Chain agents together using SMB named pipes to pivot deep into restricted subnets.",
                     tags: ["Pivoting", "Peer-to-Peer"]
                 },
                 {
-                    icon: <Globe className="w-5 h-5 text-cyan-400" />,
+                    icon: <Globe className="w-5 h-5 text-gray-400" />,
                     title: "HTTP/S & DNS Listeners",
                     desc: "Robust egress using standard web protocols and DNS tunneling for restricted environments.",
                     tags: ["Egress", "Covert"]
                 },
                 {
-                    icon: <Network className="w-5 h-5 text-indigo-400" />,
+                    icon: <Network className="w-5 h-5 text-gray-400" />,
                     title: "Dynamic Graph View",
                     desc: "Visualize your entire campaign topology. Track parent-child relationships and infection chains in real-time.",
                     tags: ["Visualization", "C2"]
@@ -60,13 +60,13 @@ const Features = () => {
             desc: "Tools to control the endpoint and harvest valuable intelligence.",
             items: [
                 {
-                    icon: <Terminal className="w-5 h-5 text-red-500" />,
+                    icon: <Terminal className="w-5 h-5 text-gray-400" />,
                     title: "BOF Execution",
                     desc: "Run Beacon Object Files (BOFs) directly in memory. Supports standard COFF format.",
                     tags: ["COFF", "In-Memory"]
                 },
                 {
-                    icon: <Code2 className="w-5 h-5 text-yellow-400" />,
+                    icon: <Code2 className="w-5 h-5 text-gray-400" />,
                     title: "Unmanaged PowerShell",
                     desc: "Execute PowerShell scripts within the agent process without spawning powershell.exe.",
                     tags: ["Automation", ".NET"]
