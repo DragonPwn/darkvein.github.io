@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import {
     Book, Server, Terminal, Share2, Shield, Activity,
@@ -7,8 +7,13 @@ import {
 import Navbar from "../components/Navbar";
 
 const DocsLayout = () => {
-    const [sidebarOpen, setSidebarOpen] = useState(true);
+    const [sidebarOpen, setSidebarOpen] = useState(false);
     const location = useLocation();
+
+    // Close sidebar on route change (mobile quality of life)
+    useEffect(() => {
+        setSidebarOpen(false);
+    }, [location.pathname]);
 
     const chapters = [
         {
