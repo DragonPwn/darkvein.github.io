@@ -59,9 +59,17 @@ const DocsLayout = () => {
             <Navbar />
 
             <div className="flex flex-1 pt-20 max-w-7xl mx-auto w-full">
+                {/* Mobile Sidebar Backdrop */}
+                {sidebarOpen && (
+                    <div
+                        className="fixed inset-0 bg-black/60 z-30 lg:hidden backdrop-blur-sm"
+                        onClick={() => setSidebarOpen(false)}
+                    />
+                )}
+
                 {/* Sidebar */}
                 <aside
-                    className={`fixed lg:sticky top-20 left-0 h-[calc(100vh-5rem)] w-64 bg-background/95 border-r border-border overflow-y-auto px-4 py-6 transition-transform duration-300 z-40 ${sidebarOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
+                    className={`fixed lg:sticky top-20 left-0 h-[calc(100dvh-5rem)] w-64 bg-background border-r border-border overflow-y-auto px-4 py-6 transition-transform duration-300 z-40 ${sidebarOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
                         }`}
                 >
                     <div className="space-y-8">
