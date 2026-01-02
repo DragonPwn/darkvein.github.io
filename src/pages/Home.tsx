@@ -222,7 +222,7 @@ const Home = () => {
                         <div className="p-8 h-full flex flex-col z-10 relative">
                             <div className="flex items-start justify-between">
                                 <div>
-                                    <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-primary"><Shield className="w-6 h-6" /></div>
+                                    <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-gray-400"><Shield className="w-6 h-6" /></div>
                                     <h3 className="text-2xl font-bold mb-2">Evasion Engine</h3>
                                     <p className="text-text-muted max-w-md">By-pass EDRs with configurable technique selection. Choose between Direct Syscalls, Indirect Syscalls (Trampoline), or Native APIs.</p>
                                 </div>
@@ -235,7 +235,7 @@ const Home = () => {
                     {/* Feature 3: BOF (Mid) */}
                     <SpotlightCard className="md:col-span-2 md:row-span-1 group">
                         <div className="p-8 h-full flex flex-col z-10 relative">
-                            <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-orange-400"><Code2 className="w-6 h-6" /></div>
+                            <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-gray-400"><Code2 className="w-6 h-6" /></div>
                             <h3 className="text-xl font-bold mb-2">BOF Support</h3>
                             <p className="text-text-muted text-sm">Execute COFF object files in memory without dropping artifacts to disk.</p>
                         </div>
@@ -244,7 +244,7 @@ const Home = () => {
                     {/* Feature 4: Inline Execution (Mid) */}
                     <SpotlightCard className="md:col-span-2 md:row-span-1 group">
                         <div className="p-8 h-full flex flex-col z-10 relative">
-                            <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-pink-400"><Cpu className="w-6 h-6" /></div>
+                            <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-gray-400"><Cpu className="w-6 h-6" /></div>
                             <h3 className="text-xl font-bold mb-2">Inline Execution</h3>
                             <p className="text-text-muted text-sm">Run .NET assemblies and unmanaged code strictly in-memory.</p>
                         </div>
@@ -253,7 +253,7 @@ const Home = () => {
                     {/* Feature 5: SOCKS Proxy (Mid) */}
                     <SpotlightCard className="md:col-span-2 md:row-span-1 group">
                         <div className="p-8 h-full flex flex-col z-10 relative">
-                            <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-indigo-400"><Globe className="w-6 h-6" /></div>
+                            <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-gray-400"><Globe className="w-6 h-6" /></div>
                             <h3 className="text-xl font-bold mb-2">SOCKS Proxy</h3>
                             <p className="text-text-muted text-sm">Tunnel external tools through your beacons with a built-in SOCKS4/5 server.</p>
                         </div>
@@ -262,7 +262,7 @@ const Home = () => {
                     {/* Feature 6: Named Pipes (Mid) */}
                     <SpotlightCard className="md:col-span-2 md:row-span-1 group">
                         <div className="p-8 h-full flex flex-col z-10 relative">
-                            <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-cyan-400"><Share2 className="w-6 h-6" /></div>
+                            <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-gray-400"><Share2 className="w-6 h-6" /></div>
                             <h3 className="text-xl font-bold mb-2">Named Pipe Pivoting</h3>
                             <p className="text-text-muted text-sm">Daisy-chain agents deep into the network using SMB named pipes.</p>
                         </div>
@@ -289,7 +289,7 @@ const Home = () => {
                         <div className="p-8 h-full flex flex-col z-10 relative">
                             <div className="flex items-start justify-between">
                                 <div>
-                                    <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-blue-400"><Network className="w-6 h-6" /></div>
+                                    <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-gray-400"><Network className="w-6 h-6" /></div>
                                     <h3 className="text-2xl font-bold mb-2">Infrastructure Graph</h3>
                                     <p className="text-text-muted mb-8 max-w-xs">Visualize pivot chains and agent relationships in real-time. Drag-and-drop to task multiple agents.</p>
                                 </div>
@@ -301,7 +301,7 @@ const Home = () => {
                     {/* GUI Feature 2: Scripts */}
                     <SpotlightCard className="md:col-span-1 md:row-span-1 group">
                         <div className="p-8 h-full flex flex-col z-10 relative">
-                            <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-yellow-400"><FileCode className="w-6 h-6" /></div>
+                            <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-gray-400"><FileCode className="w-6 h-6" /></div>
                             <h3 className="text-xl font-bold mb-2">Automation Manager</h3>
                             <p className="text-text-muted text-sm">Create and schedule scripts to automate routine tasks or complex attack chains.</p>
                         </div>
@@ -311,7 +311,7 @@ const Home = () => {
                     <SpotlightCard className="md:col-span-1 md:row-span-1 group">
                         <div className="h-full flex flex-col z-10 relative">
                             <div className="p-8 pb-0">
-                                <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-green-400"><MessageSquare className="w-6 h-6" /></div>
+                                <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-gray-400"><MessageSquare className="w-6 h-6" /></div>
                                 <h3 className="text-xl font-bold mb-2">Operator Chat</h3>
                             </div>
                             <div className="mt-auto relative">
@@ -325,7 +325,7 @@ const Home = () => {
                     <SpotlightCard className="md:col-span-2 md:row-span-1 group">
                         <div className="h-full flex flex-col z-10 relative overflow-hidden">
                             <div className="p-8 absolute top-0 left-0 z-20">
-                                <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-white"><Terminal className="w-6 h-6" /></div>
+                                <div className="p-3 bg-white/5 rounded-lg w-fit mb-4 text-gray-400"><Terminal className="w-6 h-6" /></div>
                                 <h3 className="text-2xl font-bold mb-2">Interactive Terminal</h3>
                                 <p className="text-text-muted mb-4 max-w-md">
                                     Direct interaction with agents. Tab-complete commands, view file output, and manage processes in real-time.
