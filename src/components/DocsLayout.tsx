@@ -58,7 +58,7 @@ const DocsLayout = () => {
         <div className="min-h-screen bg-background flex flex-col">
             <Navbar />
 
-            <div className="flex flex-1 pt-20 max-w-7xl mx-auto w-full">
+            <div className="flex flex-1 pt-32 max-w-7xl mx-auto w-full">
                 {/* Mobile Sidebar Backdrop */}
                 {sidebarOpen && (
                     <div
@@ -69,7 +69,7 @@ const DocsLayout = () => {
 
                 {/* Sidebar */}
                 <aside
-                    className={`fixed lg:sticky top-20 left-0 h-[calc(100dvh-5rem)] w-64 bg-background border-r border-border overflow-y-auto px-4 py-6 transition-transform duration-300 z-40 ${sidebarOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
+                    className={`fixed lg:sticky top-32 left-0 h-[calc(100dvh-8rem)] w-64 bg-background border-r border-border overflow-y-auto px-4 py-6 transition-transform duration-300 z-40 ${sidebarOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
                         }`}
                 >
                     <div className="space-y-8">
